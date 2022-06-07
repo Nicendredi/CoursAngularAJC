@@ -1,13 +1,26 @@
-<ul>
-    <li>
-        <a [routerLink]="['/app2']">APP2</a>
-    </li>
-    <li>
-        <a [routerLink]="['/app3']">APP3</a>
-    </li>
-</ul>
+<nav style="background-color: #6786a1;">
+    <div class="ui container" style="display: flex;justify-content: space-between;">
+        <div class="sub_menu">
+            <ul>
+                <li>
+                    <a [routerLink]="['/app2']">APP2</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/app3']">APP3</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <hr>
 
 <div>
     <button (click)="m1()">APP2</button>
+</div>
+
+<div class="container">
+
+    <button routerLink="/app2" class="btn btn-primary">test app2</button>
+    <button routerLink="/app3" class="btn btn-primary">test app3</button>
+
 </div>
