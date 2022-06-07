@@ -9,6 +9,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BsComponent } from './bs/bs.component';
 import { Comp1Component } from './comp1/comp1.component';
+import { Comp1aComponent } from './comp1a/comp1a.component';
+import { Comp1bComponent } from './comp1b/comp1b.component';
+import { App1Component } from './app1/app1.component';
+import { App2Component } from './app2/app2.component';
+import { App3Component } from './app3/app3.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { Comp1Component } from './comp1/comp1.component';
     HeaderComponent,
     FooterComponent,
     BsComponent,
-    Comp1Component
+    Comp1Component,
+    Comp1aComponent,
+    Comp1bComponent,
+    App1Component,
+    App2Component,
+    App3Component
   ],
   imports: [
     BrowserModule,
