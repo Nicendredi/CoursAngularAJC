@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BsComponent } from './bs/bs.component';
 
 const routes: Routes = [
-  { path: 'toto', component: BsComponent }
+  { path: 'bs', component: BsComponent }
 ];
 
 @NgModule({
