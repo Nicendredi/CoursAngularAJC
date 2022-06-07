@@ -12,4 +12,8 @@ export class App1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  m1() {
+    alert("coucou")
+  }
+
 }
