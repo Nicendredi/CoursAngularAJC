@@ -8,10 +8,13 @@ import { Client } from '../client';
 })
 export class App11Component implements OnInit {
 
-  info = { nom: '', prenom: '' }
-  tab: Array<Client> = new Array<Client>()
+  info
+  tab: Array<Client>
 
-  constructor() { }
+  constructor() {
+    this.info = { nom: '', prenom: '' }
+    this.tab = new Array<Client>()
+  }
 
   ngOnInit(): void {
   }
