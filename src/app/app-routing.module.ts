@@ -7,6 +7,7 @@ import { App4Component } from './app4/app4.component';
 import { App5Component } from './app5/app5.component';
 import { App6Component } from './app6/app6.component';
 import { App7Component } from './app7/app7.component';
+import { App8Component } from './app8/app8.component';
 import { AppcarrComponent } from './appcarr/appcarr.component';
 import { AppimgComponent } from './appimg/appimg.component';
 import { BsComponent } from './bs/bs.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'app5', component: App5Component },
   { path: 'app6', component: App6Component },
   { path: 'app7', component: App7Component },
+  { path: 'app8', component: App8Component },
   { path: 'login', component: LoginComponent },
   { path: 'img', component: AppimgComponent },
   { path: 'carr', component: AppcarrComponent },

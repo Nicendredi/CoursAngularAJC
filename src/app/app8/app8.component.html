@@ -1,0 +1,9 @@
+<table>
+    <tr *ngFor="let x of tab">
+        <td>
+            {{x}}
+        </td>
+    </tr>
+</table>
+<input type="text" [(ngModel)]="info">
+<button (click)="add()">ADD</button>
