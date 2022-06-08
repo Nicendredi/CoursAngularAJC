@@ -14,4 +14,8 @@ export class App4Component implements OnInit {
   ngOnInit(): void {
   }
 
+  m1(): void {
+    this.message = "titi"
+  }
+
 }
