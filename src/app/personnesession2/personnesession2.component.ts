@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Personne } from '../personne';
 
 @Component({
   selector: 'app-personnesession2',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./personnesession2.component.css']
 })
 export class Personnesession2Component implements OnInit {
+  p: Personne
 
   constructor() { }
 
   ngOnInit(): void {
+    this.p=JSON.parse(sessionStorage.getItem("p"))
   }
 
 }

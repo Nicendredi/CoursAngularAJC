@@ -15,6 +15,8 @@ import { AppimgComponent } from './appimg/appimg.component';
 import { BsComponent } from './bs/bs.component';
 import { Comp1Component } from './comp1/comp1.component';
 import { LoginComponent } from './login/login.component';
+import { Personnesession1Component } from './personnesession1/personnesession1.component';
+import { Personnesession2Component } from './personnesession2/personnesession2.component';
 
 const routes: Routes = [
   { path: 'bs', component: BsComponent },
@@ -32,6 +34,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'img', component: AppimgComponent },
   { path: 'carr', component: AppcarrComponent },
+  { path: 'ps1', component: Personnesession1Component },
+  { path: 'ps2', component: Personnesession2Component },
 ];
 
 @NgModule({
