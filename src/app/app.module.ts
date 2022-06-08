@@ -19,6 +19,8 @@ import { AppimgComponent } from './appimg/appimg.component';
 import { AppcarrComponent } from './appcarr/appcarr.component';
 import { App4Component } from './app4/app4.component';
 import { App5Component } from './app5/app5.component';
+import { App6Component } from './app6/app6.component';
+// import { App7Component } from './app7/app7.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { App5Component } from './app5/app5.component';
     AppimgComponent,
     AppcarrComponent,
     App4Component,
-    App5Component
+    App5Component,
+    App6Component,
+    // App7Component
   ],
   imports: [
     BrowserModule,
