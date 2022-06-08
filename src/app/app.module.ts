@@ -24,6 +24,8 @@ import { App7Component } from './app7/app7.component';
 import { App8Component } from './app8/app8.component';
 import { App9Component } from './app9/app9.component';
 import { App10Component } from './app10/app10.component';
+import { Personnesession1Component } from './personnesession1/personnesession1.component';
+import { Personnesession2Component } from './personnesession2/personnesession2.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { App10Component } from './app10/app10.component';
     App7Component,
     App8Component,
     App9Component,
-    App10Component
+    App10Component,
+    Personnesession1Component,
+    Personnesession2Component
   ],
   imports: [
     BrowserModule,
