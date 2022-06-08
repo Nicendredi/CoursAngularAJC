@@ -30,7 +30,9 @@ export class App10Component implements OnInit {
     info.p = pers
     info.a = adr
     info.getInformation()
-    this.message=info.info
+    this.message = info.info
+    console.log(pers.toString());
+    
   }
 
 }

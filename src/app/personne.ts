@@ -3,4 +3,12 @@ export class Personne {
     nom: string;
     prenom: string;
     age: number;
+
+    public toString(): string {
+        return "{" +
+            this.id + ", " +
+            this.nom + " " +
+            "}";
+    }
+
 }

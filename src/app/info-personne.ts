@@ -8,6 +8,6 @@ export class InfoPersonne {
     info: string
 
     getInformation() {
-        this.info = this.secu + " " + this.p.nom + " " + this.a.cp
+        this.info = this.secu + " " + this.p + " " + this.a.cp
     }
 }
