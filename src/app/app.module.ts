@@ -17,6 +17,7 @@ import { App3Component } from './app3/app3.component';
 import { LoginComponent } from './login/login.component';
 import { AppimgComponent } from './appimg/appimg.component';
 import { AppcarrComponent } from './appcarr/appcarr.component';
+import { App4Component } from './app4/app4.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AppcarrComponent } from './appcarr/appcarr.component';
     App3Component,
     LoginComponent,
     AppimgComponent,
-    AppcarrComponent
+    AppcarrComponent,
+    App4Component
   ],
   imports: [
     BrowserModule,
