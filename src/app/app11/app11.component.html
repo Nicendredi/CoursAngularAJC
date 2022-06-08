@@ -1,0 +1,10 @@
+<table>
+    <tr *ngFor="let x of tab">
+        <td>
+            {{x}}
+        </td>
+    </tr>
+</table>
+<input type="text" [(ngModel)]="info.nom">
+<input type="text" [(ngModel)]="info.prenom">
+<button (click)="add()">ADD</button>

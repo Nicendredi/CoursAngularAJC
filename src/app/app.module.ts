@@ -26,6 +26,7 @@ import { App9Component } from './app9/app9.component';
 import { App10Component } from './app10/app10.component';
 import { Personnesession1Component } from './personnesession1/personnesession1.component';
 import { Personnesession2Component } from './personnesession2/personnesession2.component';
+import { App11Component } from './app11/app11.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { Personnesession2Component } from './personnesession2/personnesession2.c
     App9Component,
     App10Component,
     Personnesession1Component,
-    Personnesession2Component
+    Personnesession2Component,
+    App11Component
   ],
   imports: [
     BrowserModule,

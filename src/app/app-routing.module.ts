@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { App1Component } from './app1/app1.component';
 import { App10Component } from './app10/app10.component';
+import { App11Component } from './app11/app11.component';
 import { App2Component } from './app2/app2.component';
 import { App3Component } from './app3/app3.component';
 import { App4Component } from './app4/app4.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'app8', component: App8Component },
   { path: 'app9', component: App9Component },
   { path: 'app10', component: App10Component },
+  { path: 'app11', component: App11Component },
   { path: 'login', component: LoginComponent },
   { path: 'img', component: AppimgComponent },
   { path: 'carr', component: AppcarrComponent },
