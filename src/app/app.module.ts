@@ -23,6 +23,7 @@ import { App6Component } from './app6/app6.component';
 import { App7Component } from './app7/app7.component';
 import { App8Component } from './app8/app8.component';
 import { App9Component } from './app9/app9.component';
+import { App10Component } from './app10/app10.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { App9Component } from './app9/app9.component';
     App6Component,
     App7Component,
     App8Component,
-    App9Component
+    App9Component,
+    App10Component
   ],
   imports: [
     BrowserModule,
