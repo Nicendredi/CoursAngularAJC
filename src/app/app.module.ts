@@ -20,7 +20,7 @@ import { AppcarrComponent } from './appcarr/appcarr.component';
 import { App4Component } from './app4/app4.component';
 import { App5Component } from './app5/app5.component';
 import { App6Component } from './app6/app6.component';
-// import { App7Component } from './app7/app7.component';
+import { App7Component } from './app7/app7.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +40,7 @@ import { App6Component } from './app6/app6.component';
     App4Component,
     App5Component,
     App6Component,
-    // App7Component
+    App7Component
   ],
   imports: [
     BrowserModule,
